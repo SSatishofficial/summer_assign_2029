@@ -6,13 +6,9 @@ int main() {
     cout << "Enter a number: ";
     cin >> num;
 
-    if (num == 0) {
-        count = 1;  // special case for 0
-    } else {
-        while (num != 0) {
-            num /= 10;
-            count++;
-        }
+    while (num != 0) {
+        num /= 10;
+        count++;
     }
 
     cout << "Number of digits: " << count << endl;

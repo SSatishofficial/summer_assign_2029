@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int n;
-    unsigned long long fact = 1;  // use long long for large results
+    unsigned long long fact = 1;
     cout << "Enter a number: ";
     cin >> n;
 
