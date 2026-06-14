@@ -7,7 +7,6 @@ int main() {
 
     cout << "Enter a number: ";
     cin >> num;
-
     if (num <= 1) {
         isPrime = false;
     } else {
